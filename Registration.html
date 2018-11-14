@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Html form
+		</title>  
+	</head>
+	<body text="black" bgcolor="white">
+		<form  method="post" action="post.php">
+			<table border="20" cellspacing="4" bordercolor="black" bgcolor="white" align="center">
+				<tr>
+					<td colspan=2 align="center">PERSONAL INFORMATION </td>
+				</tr>
+				<tr>
+					<td>NAME</td>
+					<td> <input type="text" name ="name"/></td>
+				</tr>
+				<tr>
+					<td>FATHER'S NAME</td>
+					<td><INPUT TYPE = "TEXT" name ="f_name"/></td>
+				</tr>
+				<tr>
+					<td>EMAIL</td>
+					<td> <input type= "email" name = "email" ></td>
+				</tr>
+				<tr> 
+					<td> MOBILE NO.</td> 
+					<td> <INPUT placeholder="Enter 10 digit mobile no." TYPE="TEXT" pattern="[1-9]{1}[0-9]{9}"  name = "mobile"/></td>   
+				</tr>
+				<tr>
+					<td>GENDER</td>
+					<td>
+						<input type="radio" name="gender" value = "male"/>Male 
+						<input type="radio" name="gender" value= "female"/>Female
+					</td>
+				</tr>
+				<tr>
+					<td colspan=2 align="center">LOGIN INFORMATION </td>
+				</tr>
+			    <tr>
+					<td>USERID</td>
+					<td> <input type = "text" name = "userid"/></td>
+				</tr>
+				
+				<tr>
+					<td>PASSWORD</td>
+					<td> <input type="password" name = "pass"/></td>
+				</tr>
+				<tr>
+					<td> CONFIRM PASSWORD</td>
+					<td> <input type="password" name ="cpass"/></td>
+				</tr>
+
+				<tr>
+					<td colspan=2 align="center">ADDRESS INFORMATION </td>
+				</tr>
+				<tr>
+					<td>PINCODE</td>  
+					<td> <INPUT placeholder = "Enter 6 digit pincode" TYPE="TEXT"  pattern="[0-9]{6}" name ="pin"/> </td>
+				</tr>
+				<tr>
+					<td>STATE</td>
+					<td><INPUT TYPE = "text" name ="state"/></td>   
+				</tR>
+				<tr>
+					<td>CITY</td>
+					<td> <input type = "text" name ="city"/></td></tr>
+				<tr>
+					<td>BLOCK</td>
+					<td> <input type = "text" name = "block"/></td>
+				</tr>
+				<tr>
+					<td>HOUSENO.</td>
+					<td> <input type = "text" name = "house"/></td>
+				</tr>
+				<tr>
+					<td align="right"><input type="submit" value="SUBMIT"/></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
+
